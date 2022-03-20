@@ -4,3 +4,4 @@ data/images/test
 logs/
 *.pyc
 *.tar.gz
+*.pth

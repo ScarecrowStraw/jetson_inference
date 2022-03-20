@@ -37,7 +37,7 @@ parser = argparse.ArgumentParser(
     description='Single Shot MultiBox Detector Training With PyTorch')
 
 # Params for datasets
-parser.add_argument("--dataset-type", default="custom_type", type=str,
+parser.add_argument("--dataset-type", default="voc", type=str,
                     help='Specify dataset type. Currently supports voc and open_images.')
 parser.add_argument('--datasets', '--data', nargs='+', default=["data"], help='Dataset directory path')
 parser.add_argument('--balance-data', action='store_true',
